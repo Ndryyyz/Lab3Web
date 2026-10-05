@@ -165,20 +165,3 @@ Contoh:
 Paragraf berwarna **hijau**, walaupun `.textparagraf` ditulis lebih dulu atau lebih belakang. Hasilnya tidak bergantung pada urutan penulisan, karena bobot ID lebih besar. Properti yang tidak bentrok tetap digabung, misalnya bila class mengatur `font-size` dan ID mengatur `color`, kedua aturan itu tetap berlaku.
 
 ---
-
-## Cara Mengerjakan dan Mengumpulkan (Git)
-
-1. Buat repository baru di GitHub dengan nama **Lab3Web**.
-2. Clone ke komputer, lalu masukkan semua file dari folder ini:
-   ```bash
-   git clone https://github.com/<username>/Lab3Web.git
-   cd Lab3Web
-   # salin lab2_css_dasar.html, style_eksternal.css, README.md, dan folder screenshots ke sini
-   ```
-3. Commit dan push:
-   ```bash
-   git add .
-   git commit -m "Praktikum 3: CSS Dasar"
-   git push origin main
-   ```
-4. Salin URL repository (`https://github.com/<username>/Lab3Web`) dan kirim lewat e-learning ecampus.
