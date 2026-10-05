@@ -25,8 +25,8 @@ Lab3Web/
 Pertama saya membuat file baru bernama `lab2_css_dasar.html` di VSCode, lalu mengisinya dengan struktur dasar HTML dari modul: ada `<header>` berisi judul `<h1>`, `<nav>` berisi tiga tautan, dan `<div id="intro">` berisi judul, paragraf, serta tautan bertombol dengan `class="button btn-primary"`. Saat dibuka di browser, tampilannya masih polos karena belum ada CSS sama sekali.
 
 ![Langkah 1](screenshots/01-html-dasar.png)
+<img width="900" height="420" alt="01-html-dasar" src="https://github.com/user-attachments/assets/6466d8e8-0c1d-4d29-a8ab-aa4bbc727f5d" />
 
-*Gambar 1. Tampilan dokumen HTML tanpa CSS.*
 
 ## Langkah 2: Mendeklarasikan CSS Internal
 
@@ -44,8 +44,8 @@ CSS internal ditulis di dalam tag `<style>` pada bagian `<head>`. Saya menambahk
 Setelah disimpan dan browser di-refresh, semua judul menjadi biru, rata tengah, dan kata *Inline CSS* berwarna abu-abu karena kena aturan `h1 i`.
 
 ![Langkah 2](screenshots/02-css-internal.png)
+<img width="900" height="420" alt="02-css-internal" src="https://github.com/user-attachments/assets/a5541a4f-94ac-4417-8589-36161df91805" />
 
-*Gambar 2. Tampilan setelah CSS internal ditambahkan.*
 
 ## Langkah 3: Menambahkan Inline CSS
 
@@ -58,8 +58,8 @@ Inline CSS ditulis langsung sebagai atribut `style` pada tag HTML. Saya menambah
 Paragraf jadi rata tengah dengan warna biru pucat. Aturan ini hanya berlaku untuk satu paragraf itu saja.
 
 ![Langkah 3](screenshots/03-inline-css.png)
+<img width="900" height="420" alt="03-inline-css" src="https://github.com/user-attachments/assets/04c008cf-9d5e-4fac-9e57-e117ecfec3ef" />
 
-*Gambar 3. Tampilan setelah inline CSS ditambahkan.*
 
 ## Langkah 4: Membuat CSS Eksternal
 
@@ -72,8 +72,7 @@ Saya membuat file baru `style_eksternal.css` berisi aturan untuk `nav`, `nav a`,
 Hasilnya menu navigasi berubah menjadi bar hijau dengan teks putih tanpa garis bawah.
 
 ![Langkah 4](screenshots/04-css-eksternal.png)
-
-*Gambar 4. Tampilan setelah CSS eksternal ditambahkan.*
+<img width="900" height="420" alt="04-css-eksternal" src="https://github.com/user-attachments/assets/86cf4a95-9221-43fd-a992-2edb0f69573d" />
 
 ## Langkah 5: Menambahkan CSS Selector (ID dan Class)
 
@@ -85,8 +84,7 @@ Pada `style_eksternal.css` saya menambahkan:
 Hasilnya kotak intro berwarna biru, judul "Hello World" putih rata kiri, dan tautan berubah menjadi tombol merah.
 
 ![Langkah 5](screenshots/05-id-class-selector.png)
-
-*Gambar 5. Tampilan CSS ID dan Class Selector.*
+<img width="900" height="420" alt="05-id-class-selector" src="https://github.com/user-attachments/assets/48d9a008-f348-4d5e-813b-6c1c3b0bd4f5" />
 
 ## Langkah 6: Validasi CSS
 
